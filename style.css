@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body{
+    height: 100vh;
+}
+span{
+  color: #f9004d;
+}
+#intro{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 15%;
+  height: 100%;
+  color: white;
+  background: url(images/sfondo-sito.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.presentazione{
+  background-color: rgba(29, 148, 216, 0.9);
+  width: 60%;
+}
+.navbar{
+  color: white;
+}
+footer{
+  background-color: #1D94D8;
+}
+
+#my-skills{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.skill{
+  height: 100%;
+  width: 500px;
+  margin: 60px auto;
+  border: 2px solid #f9004d;
+
+}
+
+.skill li{
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.barra{
+  background: #fff;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barra:hover{
+  box-shadow: 0 14px 28px;
+  cursor: pointer;
+}
+
+.barra span{
+  height: 20px;
+  float: left;
+  background: #f9004d;
+}
+
+.html{
+  width: 70%;
+}
+
+.css{
+  width: 60%;
+}
+
+.social{
+  width: 70%;
+}
+
+.email-marketing{
+  width: 60%;
+}
+
+.copy{
+  width: 50%;
+}
+
+@media only screen and (max-width: 425px) {
+  .grafico{
+    width: 70%;
+    height: 70%;
+  }
+}
